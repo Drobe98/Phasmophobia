@@ -82,7 +82,7 @@ a {
   border: 0;
 } 
 .forumspace{
-  margin-top: -2.8vh;
+  margin-top: -1vh;
   padding: 0.1vh 0vh 0vh 0vh;
   background-color: #a6a6a6;
   width: 63.5vh;
@@ -176,7 +176,7 @@ form{
   height: 6vh;
 }
 .forumprofilename{
-  margin-top: -2vh;
+  margin-top: -4vh;
   margin-left: 34vh;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.8vh;
@@ -184,13 +184,13 @@ form{
 .forumprofilepc{
   position: absolute;
   margin-left: 36vh;
-  margin-top: -2vh;
+  margin-top: -3vh;
   width: 3.5vh;
   height: 3.5vh;
 }
 .minititle{
   margin-left: 5vh;
-  margin-top: -2vh;
+  margin-top: -7vh;
   color: #f2f2f2;
   font-size: 1.8vh;
   font-family: 'Times New Roman', Times, serif;
@@ -204,7 +204,7 @@ form{
   cursor: pointer;
 }
 .rowtitle{
-  margin-top: -2.2vh;
+  margin-top: -7vh;
   margin-left: 5.7vh;
   font-size: 3vh;
   color: #f2f2f2;
@@ -212,8 +212,8 @@ form{
 }
 .forumrow{
   display: grid;
-  grid-template-rows: 25% 25% 25%;
-  margin-top: -1.3vh;
+  grid-template-rows: 75px 25px;
+  margin-top: 0vh;
   background-color:transparent;
   padding: -5vh 0vh -5vh 0vh;
 }
@@ -267,7 +267,7 @@ article{
   border: 2px solid #f2f2f2;
   border-radius: 25px;
   display: block;
-  height: 30vh;
+  height: 35vh;
 }
 .page{
   margin: 0;
@@ -294,7 +294,7 @@ article{
   border: white;
   border-style: solid;
   border-radius: 25px;
-  height: 50vh;
+  height: 55vh;
 }  
 .title{
   margin-left: 37%;
