@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="Forum.css">
+    <link rel="shortcut icon" href="img/MiniLogo.png"/>
+    <title>Phasmophobia Blog</title>
+</head>
+<body>
+
+
+<div class="page">
+  <img class="logo" src="img/Title.png" width="60%" alt="style">
+  <div class="middle">
+    <div class="space">
+    </div>
+    <div class="column">
+      <div class="Header">
+       <button id="myBtn"><img class="profile"src="img/Profile.png"></button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="login">
+              <form action="action_page.php">
+                <div class="container">
+                  <h1>Register</h1>  <!-- Login Modal-->
+                  <p class="modaltitle">Please fill in this form to create an account.</p>
+                  <hr>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              
+                  <label for="pswrepeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="pswrepeat" id="pswrepeat" required>
+
+                  <label for="phone number"><b>Phone Number</b></label>
+                  <input type="text" class="textfield" placeholder ="Enter Phone Number" value="" id="phonenumber" name="extra7" onkeypress="return isNumber(event)" required />
+                  <hr>
+              
+                  <p class="modalfooter">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                  
+                  <button type="submit"  class="registerbtn">Register</button>
+                
+                </div>
+              
+                <div class="container-signin">
+                  <p class="ceva">Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        
+        </div>
+
+                          <!-- Dropdown menu -->
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Menu </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="file:///C:/Users/david.gal/WebbSida/index.html">Patch Notes</a>
+            <a href="file:///C:/Users/david.gal/WebbSida/Pages/About%20Us/aboutus.html">About Us</a>
+            <a href="https://phasmophobia.fandom.com/wiki/Main_Page" target="_blank">Phasmophobia Wiki</a>
+            <a href="file:///C:/Users/david.gal/WebbSida/Pages/Forum/Forum.html">Forums</a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="main">
+        <div class="title">
+          Forums
+        </div>
+
+        <article>     <!--Article-->
+          <div class="forumrow">
+            <img class = "rowicon"src="img/MiniLogo.png" alt="">
+            <div class="rowtitle">  
+                News & Announcements
+                <div class="forumprofilename">
+                  Written By <br> Username
+              </div>
+            </div>
+            <div class="minititle">
+              Official Phasmophobia Announcements <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;straight from the devs
+                  <div class="forumprofilepcdiv">
+                    <img class="forumprofilepc"src="img/Profile.png" alt="">
+                  </div>
+            </div>
+          </div>  
+          <div class="forumspace">
+          </div>
+
+          <div class="forumrow">
+            <img class = "rowicon"src="img/MiniLogo.png" alt="">
+            <div class="rowtitle">  
+                General Discussion
+                <div class="forumprofilename">
+                  Written By <br> Username
+              </div>
+            </div>
+            <div class="minititle">
+              Dedicated for any discussions<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about the game
+                  <div class="forumprofilepcdiv">
+                    <img class="forumprofilepc"src="img/Profile.png" alt="">
+                  </div>
+            </div>
+          </div>  
+          <div class="forumspace">
+
+          </div>
+
+          <div class="forumrow">
+            <img class = "rowicon"src="img/MiniLogo.png" alt="">
+            <div class="rowtitle">  
+                Scary Thoughts
+                <div class="forumprofilename">
+                  Written By <br> Username
+              </div>
+            </div>
+            <div class="minititle">
+              Come here to talk about your ideas<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; with other ghost hunters
+                  <div class="forumprofilepcdiv">
+                    <img class="forumprofilepc"src="img/Profile.png" alt="">
+                  </div>
+            </div>
+          </div>  
+          <div class="forumspace">
+
+          </div>
+        </article>
+
+      </div>  
+   
+        <div class="text">
+            ©Phasmophobia Blog
+        </div>
+        <div class="logos">  
+          <a href="https://discord.com/invite/Phasmophobia" target="_blank"> <img class="discord" src="img/Discord.png" alt=""></a>
+          <a href="https://twitter.com/kineticgame" target="_blank"><img class="twitter"src="img/Twitter.png" alt=""></a> 
+          <a href="https://www.instagram.com/phasmophobia_official/" target="_blank"> <img class="instagram" src="img/Instagram.png" alt=""></a> 
+          <a href="https://store.steampowered.com/app/739630/Phasmophobia/" target="_blank"> <img class="steam"src="img/Steam.png" alt=""></a>
+        </div>
+      
+        <button id='contact' class ="contact"> Contact Us</button> 
+        <div id = 'patrat' class="patrat">
+          For serioues business enquiries please contact us here : contact@kineticgames.co.uk
+        </div>
+
+      </div>
+        <div class="space2">
+      </div>
+    </div>
+</div>
+
+</body>
+
+
+<script>      
+    function myFunction() {     // Dropdown menu
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  // Menyn stänger när man trycker någonannanstans
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+
+<script>             //Modal
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var popupModal = document.getElementById(element.dataset.popupTrigger);
+var popupModalclose = document
+          .getElementById(element.dataset.popupTrigger)
+
+</script>
+
+<script>
+  function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
+</script>
+
+
+<script>
+
+
+
+document.getElementById("email").addEventListener("mouseover", mouseOver);
+document.getElementById("email").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("email").style.backgroundColor = "black";
+  document.getElementById("email").style.transition = "all 0.8s";
+  document.getElementById("email").style.color = "white";
+}
+
+function mouseOut() {
+  document.getElementById("email").style.backgroundColor = "white";
+  document.getElementById("email").style.color = "black";
+}
+
+</script>
+
+<script>
+
+
+document.getElementById("psw").addEventListener("mouseover", mouseOver);
+document.getElementById("psw").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("psw").style.backgroundColor = "black";
+  document.getElementById("psw").style.transition = "all 0.8s";
+  document.getElementById("psw").style.color = "white";
+}
+
+function mouseOut() {
+  document.getElementById("psw").style.backgroundColor = "white";
+  document.getElementById("psw").style.color = "black";
+}
+</script>
+
+<script>
+  
+document.getElementById("pswrepeat").addEventListener("mouseover", mouseOver);
+document.getElementById("pswrepeat").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("pswrepeat").style.backgroundColor = "black";
+  document.getElementById("pswrepeat").style.transition = "all 0.8s";
+  document.getElementById("pswrepeat").style.color = "white";
+}
+
+function mouseOut() {
+  document.getElementById("pswrepeat").style.backgroundColor = "white";
+  document.getElementById("pswrepeat").style.color = "black";
+}
+
+</script>
+
+<script>
+  
+document.getElementById("phonenumber").addEventListener("mouseover", mouseOver);
+document.getElementById("phonenumber").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("phonenumber").style.backgroundColor = "black";
+  document.getElementById("phonenumber").style.transition = "all 0.8s";
+  document.getElementById("phonenumber").style.color = "white";
+}
+
+function mouseOut() {
+  document.getElementById("phonenumber").style.backgroundColor = "white";
+  document.getElementById("phonenumber").style.color = "black";
+}
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $('#contact').click(function(){
+    $('#patrat').animate({
+      height: 'toggle'
+    },'fast');
+  });
+});      
+</script>
