@@ -1,0 +1,292 @@
+*{
+  font-family: October Crow;
+  font-size: 3vh;
+}
+
+.logo{
+  position: relative;
+  margin-left: 21.5%;
+  z-index: 0;
+  display: block;
+  margin: 20px auto 20px;
+  border: 0;
+}
+
+a{
+  font-size: 20px;
+  font-stretch: 20px;
+}
+body {
+  background-image: url('img/Background.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-size:100% 100%;
+}
+
+.patrat{
+  width: 45vh;
+  padding: 1vh 1vh 1vh 1vh;
+  margin-left: -4vh;
+  background-color: black;
+  color: white;
+  margin-top: 1vh;
+  position: absolute;
+  box-shadow: -0.75vh -0.75vh 1vh white;
+}
+
+.contact{
+  margin-left: 13vh;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.page{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.column{
+  position: static;
+  width: 43vh;
+  color: #f2f2f2;
+  padding: 20vh;  
+  background-color: #a6a6a6;
+  border: white;
+  border-style: solid;
+  border-radius: 25px;
+}
+
+.footer{
+padding: 0;
+}
+
+.discord{
+  border-radius: 5vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+.twitter{
+  border-radius: 5vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+.instagram{
+  width: 5vh;
+  height: 5vh;
+}
+
+.steam{
+  border-radius: 5vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+.logos{
+  margin-top: 15vh;
+  margin-left: 10vh;
+}
+
+.title{
+  margin-left: 33%;
+  display: block;
+  position: relative;
+  color: #0d0d0d;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+}
+
+article{
+  padding: 0vh 71vh 0 -15vh;
+  border-bottom: none;
+  background: #0d0d0d;
+  border-radius: 11px;
+  border: 2px solid #f2f2f2;
+  word-wrap: break-word;
+  background-color: #0d0d0d;
+  margin : 5vh -18vh 2vh -18vh;
+  font-size: 1vw;
+  color: #f2f2f2;
+  text-indent: 1vh;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text{
+  color: #0d0d0d;
+  margin-bottom: -15vh;
+  margin-left: -18vh;
+  font-size: 2,5vw;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+.middle{
+  display: flex;
+  justify-content: space-evenly;
+}
+.space{
+  padding: 0.0001px;
+  background-color: transparent;
+}
+.space2{
+  padding: 0.0001px;
+  background-color: transparent;
+}
+.dropbtn {
+  position: static;
+  border-radius: 0px;
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+  padding: 1.6vh;
+  font-size: 1.6vh;
+  border: none;
+  cursor: pointer; 
+  z-index: 1;
+  width: 100%;
+  top: 2vh;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  display: inline-block;
+} 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ddd;
+  display: static;
+}
+
+/* Div container - till att byta positionen till menyn */
+.dropdown {
+  position: static;
+  display: block;
+  z-index: 1;
+  margin-top: -17vh;
+  margin-left: -10vh;
+  align-items: center;
+  min-width: 30vh;
+  max-width: 75vh;
+  text-align: center;
+  width: 150%;
+}
+.dropdown-content {
+  display: none;
+  position: static;
+  background-color: #f2f2f2;
+  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+}
+  
+/* Länkarna i dropdown */
+.dropdown-content a {
+  position: static;
+  color: #0d0d0d;
+  padding: 1.5vh 4.1vh ;
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+  background-color: #f2f2f2;
+  border: none;
+  width: 87.3%;
+  display: inline-block;
+  align-items: center;
+  text-align:center;
+}
+.dropdown-content a:hover {background-color: #ddd ;}
+  
+/* Visar dropdown menyn */
+.show {display:block;}
+
+@media screen and (min-width: 4.1vh) {
+  .column {
+    max-width: 68.5711428571rem;
+    max-height: 235vh;
+    overflow: hidden;
+  }
+}
+@font-face {
+  font-family: October Crow;
+  src: url(October-Crow.ttf);
+}
+@media screen and (min-width: 30vh){
+img.logo {
+    display: block;
+    margin: 5vh auto 1vh;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 600px){
+.site-content {
+    float: left;
+    width: 71.504166667%;
+ }
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .text {
+    font-size:3.5vw
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 4.5vw;
+  }
+}
+
+
+
+@media screen and (max-width: 992px) {
+  article {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 625px ) {
+  .logos {
+    margin-top: 15vh;
+    margin-left: 5vh;
+    width : 25vh;
+  }
+}
+
+
+@media screen and (max-width: 824px ){
+  .dropdown-content a {
+    width: 72.7%;
+  }
+}
+
+
+@media screen and (max-width: 824px ){
+  .patrat {
+    width: 40vh;
+    margin-left: -15vh;
+  }
+}
+
+@media screen and (max-width: 824px ){
+  .contact {
+    margin-left: 0vh;
+    height: 7vh;
+  }
+}

@@ -1,0 +1,556 @@
+*{
+  font-family: October Crow;
+  font-size: 3vh;
+}
+/* Full-width input fields */
+input[type=text], input[type=password], input [type = text]:focus {
+  width: 63vh;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  margin-left: -4vh;
+}
+
+input[type=text]:focus, input[type=password]:focus, input [type = text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+.patrat{
+  width: 45vh;
+  padding: 1vh 1vh 1vh 1vh;
+  margin-left: -4vh;
+  background-color: black;
+  color: white;
+  margin-top: 5vh;
+  position: absolute;
+  box-shadow: -0.75vh -0.75vh 1vh white;
+}
+
+.contact{
+  margin-left: 13vh;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.email{
+  position: flex;
+}
+.container-signin{
+  margin-left: 10vh;
+  margin-top: 9.3vh;
+}
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  width: 50vh;
+  margin-left: 5%;
+}
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  border: white solid 1px;
+  margin-top: -1.5vh;
+  margin-left: 8vh;
+  border-radius: 1vh;
+  width: 40vh;
+}
+
+.registerbtn:hover {
+  background-color: #0d0d0d;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+.logo{
+  position: relative;
+  margin-left: 21.5%;
+  z-index: 0;
+  display: block;
+  margin: 20px auto 20px;
+  border: 0;
+} 
+.forumspace{
+  margin-top: -2.8vh;
+  padding: 0.1vh 0vh 0vh 0vh;
+  background-color: #a6a6a6;
+  width: 63.5vh;
+  margin-left: 7vh;
+  border-radius: 10vh;
+}
+
+.register{
+  margin-left: 20vh;
+  border-color: none;
+  background-color: white;
+}
+input{
+  background-color: white;
+  color: white;
+}
+
+button{
+  position: absolute;
+  z-index: 0;
+  background-color: transparent;
+  border-color: transparent;
+}
+.login{
+  margin-top: -35vh;
+  margin-left: 5vh
+}
+h1{
+  margin-left: 23vh;
+}
+
+form{
+  margin-left: -68.5vh;
+}
+
+.modaltitle{
+  margin-left: 1vh;
+}
+
+.modalfooter{
+  font-size: 2.5vh;
+  margin-left: 1vh;
+}
+
+.modal {
+  overflow: auto;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: -20vh;
+  width: 100%; /* Full width */
+  height: 200vh; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  animation: scaleup 0.2s ease-in;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #0d0d0d;
+  margin: 15% auto; /* 15% from the top and centered */
+  border: 1px solid #a6a6a6;
+  padding-top: 35vh;
+  padding-bottom: 35vh;
+  padding-left: 0vh;
+  padding-right: 0vh;
+  border-radius: 1vh;
+  display: flex;
+  height: 19vh;
+  min-width: 40vh;
+  margin-top: 30vh;
+}
+
+/* The Close Button */
+.close {
+  color: #a6a6a6;
+  margin-top: -35vh;
+  height: 1.5vh;
+  margin-left: 68.5vh;
+}
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rowprofile{
+  margin-top: -5vh;
+  width: 6vh;
+  height: 6vh;
+}
+.forumprofilename{
+  margin-top: -2vh;
+  margin-left: 34vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8vh;
+}
+.forumprofilepc{
+  position: absolute;
+  margin-left: 36vh;
+  margin-top: -2vh;
+  width: 3.5vh;
+  height: 3.5vh;
+}
+.minititle{
+  margin-left: 5vh;
+  margin-top: -2vh;
+  color: #f2f2f2;
+  font-size: 1.8vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+.profile{
+  position: absolute;
+  margin-top: 0.5vh;
+  margin-left: -18.5vh;
+  width: 5vh;
+  height: 5vh;
+  cursor: pointer;
+}
+.rowtitle{
+  margin-top: -2.2vh;
+  margin-left: 5.7vh;
+  font-size: 3vh;
+  color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+}
+.forumrow{
+  display: grid;
+  grid-template-rows: 25% 25% 25%;
+  margin-top: -1.3vh;
+  background-color:transparent;
+  padding: -5vh 0vh -5vh 0vh;
+}
+.rowicon{
+  margin-top: 2vh;
+  width: 6vh;
+  height: 6vh;
+}
+.discord{
+  border-radius: 5vh;
+  width: 5vh;
+  height: 5vh;
+}
+.twitter{
+  border-radius: 5vh;
+  width: 5vh;
+  height: 5vh;
+}
+.instagram{
+  width: 5vh;
+  height: 5vh;
+}
+.steam{
+  border-radius: 5vh;
+  width: 5vh;
+  height: 5vh;
+}
+.logos{
+  margin-top: 0vh;
+  margin-left: 10vh;
+}  
+a{
+  font-size: 20px;
+  font-stretch: 20px;
+}
+body {
+  background-image: url('img/Background.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-size:100% 100%;
+}
+article{
+  justify-content: start;
+  position: flex;
+  border: 1px solid rgba( var(--theme-text_light), 0.1 );
+  border-width: 0 0 1px 0;
+  padding: 0vh 71vh 0vh -15vh;
+  background-color: #0d0d0d;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  display: block;
+  height: 30vh;
+}
+.page{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+} 
+.text{
+  color: #0d0d0d;
+  margin-top: 4vh;
+  margin-left: -18vh;
+  font-size: 2.5vw;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+.column{
+  position: static;
+  width: 43vh;
+  color: #f2f2f2;
+  padding: 20vh;  
+  background-color: #a6a6a6;
+  border: white;
+  border-style: solid;
+  border-radius: 25px;
+  height: 50vh;
+}  
+.title{
+  margin-left: 37%;
+  display: block;
+  position: relative;
+  color: #0d0d0d;
+  font-size: 2.4vw;
+  margin-top: 1vh;
+}  
+article{
+  padding: 0vh 71vh 0 -15vh;
+  border-bottom: none;
+  background: #0d0d0d;
+  border-radius: 11px;
+  border: 2px solid #f2f2f2;
+  word-wrap: break-word;
+  background-color: #0d0d0d;
+  margin : 5vh -19.2vh 0vh -19.2vh;
+  font-size: 20px;
+  color: #f2f2f2;
+  text-indent: 1vh;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+} 
+.middle{
+  display: flex;
+  justify-content: space-evenly;
+}
+.space{
+  padding: 0.0001px;
+  background-color: transparent;
+}
+.space2{
+  padding: 0.0001px;
+  background-color: transparent;
+}
+.dropbtn {
+  position: static;
+  border-radius: 0px;
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+  padding: 1.6vh;
+  font-size: 10vh;
+  border: none;
+  cursor: pointer; 
+  z-index: 1;
+  width: 100%;
+  top: 2vh;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  display: inline-block;
+} 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ddd;
+  display: static;
+}
+  
+  /* Div container - till att byta positionen till menyn */
+.dropdown {
+  position: static;
+  display: block;
+  z-index: 1;
+  margin-top: -17vh;
+  margin-left: -10vh;
+  align-items: center;
+  min-width: 30vh;
+  max-width: 75vh;
+  text-align: center;
+  width: 150%;
+  
+}
+.dropdown-content {
+  display: none;
+  position: static;
+  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+}
+    
+  /* Länkarna i dropdown */
+.dropdown-content a {
+  position: static;
+  color: #0d0d0d;
+  padding: 1.5vh 4.1vh ;
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+  background-color: #f2f2f2;
+  border: none;
+  width: 87.3%;
+  display: inline-block;
+  align-items: center;
+  text-align:center;
+}
+.dropdown-content a:hover {background-color: #ddd ;}
+    
+  /* Visar dropdown menyn */
+.show {display:block;}
+  
+
+@media screen and (min-width: 4.1vh) {
+  .column {
+    max-width: 68.5711428571rem;
+    overflow: hidden;
+  }
+}
+@font-face {
+  font-family: October Crow;
+  src: url(October-Crow.ttf);
+}
+@media screen and (min-width: 30vh){
+img.logo {
+    display: block;
+    margin: 5vh auto 1vh;
+    position: relative;
+    z-index: 1;
+  }
+} 
+@media screen and (min-width: 600px){
+.site-content {
+    float: left;
+    width: 71.504166667%;
+  }
+}
+@media (min-width: 980px) {
+  .forumsrows {
+      display: flex;
+      align-items: center;
+      width: auto;
+    }
+  }
+@media (min-width: 35vh) {
+  .modal-content {
+    display: flex;
+    max-width: 70vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 992px) {
+  .text {
+    font-size:3.5vw
+  }
+}
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 824px ){
+  .dropdown-content a {
+    width: 72.7%;
+  }
+}
+@media screen and (max-width: 625px ) {
+  .logos {
+    margin-top: -3vh;
+    margin-left: 5vh;
+    width : 25vh;
+  }
+}
+@media screen and ( max-width: 650px ){
+  .rowtitle{
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 650px) {
+  .minititle{
+    font-size: 3vw;
+    margin-left: 8vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .close{
+    margin-left: 59vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .input[type=text], input[type=password]{
+    margin-left: 4vh;
+    width: 57vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .input[type=text], input[type=text]{
+    margin-left: 4vh;
+    width: 57vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  b{
+    margin-left: 5vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .modaltitle{
+    margin-left: 7.5vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  hr{
+    margin-left: 10vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .modalfooter{
+    margin-left: 5vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .registerbtn{
+    margin-left: 15vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .modal-content{
+    margin-top: 20vh;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .ceva{
+    margin-left: 5vh;
+  }
+}
+
+@media screen and (max-width: 824px ){
+  .patrat {
+    width: 40vh;
+    margin-left: -15vh;
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 824px ){
+  .contact {
+    margin-left: 0vh;
+    height: 7vh;
+  }
+}
+
+
+@keyframes scaleup {
+  0% {
+    transform: scale(0.2);
+  }
+  90% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
