@@ -36,9 +36,9 @@ body {
 
 .text{
   color: #0d0d0d;
-  margin-top: 4vh;
+  margin-top: 1vh;
   margin-left: -18vh;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   padding: 0;
   border: 0;
   vertical-align: baseline;
@@ -211,7 +211,7 @@ article{
 @media screen and (min-width: 4.1vh) {
 .column {
     max-width: 68.5711428571rem;
-    max-height: 46vh;
+    height: 46;
     overflow: hidden;
   }
 }
@@ -235,6 +235,19 @@ img.logo {
   }
 }
   
+@media screen and (max-width: 600px){
+  article {
+      height: 20vh;
+    }
+  }
+
+    
+@media screen and (max-width: 400px){
+  article {
+      height: 40vh;
+    }
+  }
+
 @media screen and (max-width: 992px) {
   .title {
     font-size: 5vw;
@@ -242,9 +255,15 @@ img.logo {
 }
 
 
+@media screen and (max-width: 400px) {
+  .column {
+    height: 60vh;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .text {
-    font-size:3.5vw
+    font-size:3.5vh
   }
 }
 
