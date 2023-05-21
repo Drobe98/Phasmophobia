@@ -210,7 +210,6 @@ article{
 @media screen and (min-width: 4.1vh) {
   .column {
     max-width: 68.5711428571rem;
-    max-height: 235vh;
     overflow: hidden;
   }
 }
@@ -257,7 +256,7 @@ img.logo {
 
 @media screen and (max-width: 992px) {
   article {
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 }
 
@@ -288,5 +287,34 @@ img.logo {
   .contact {
     margin-left: 0vh;
     height: 7vh;
+  }
+}
+
+@media screen and (max-width: 414px ){
+  .logos {
+    margin-left: -2vh;
+  }
+}
+
+
+@media screen and (max-width: 412px ){
+  .patrat {
+    width: 35vh;
+    margin-left: -17vh;
+  }
+}
+
+
+
+@media screen and (max-width: 412px ){
+  .contact {
+    margin-left: -4vh;
+  }
+}
+
+
+@media screen and (max-width: 650px ){
+  .column {
+    height: 325vh;
   }
 }
