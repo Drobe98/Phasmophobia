@@ -399,9 +399,6 @@ article{
 
 
 
-
-
-
 @media screen and (min-width: 4.1vh) {
   .column {
     max-width: 68.5711428571rem;
@@ -839,4 +836,3 @@ img.logo {
     transform: scale(1);
   }
 }
-
