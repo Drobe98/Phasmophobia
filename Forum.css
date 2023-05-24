@@ -402,7 +402,6 @@ article{
 
 
 
-
 @media screen and (min-width: 4.1vh) {
   .column {
     max-width: 68.5711428571rem;
@@ -460,13 +459,6 @@ img.logo {
     width: 72.7%;
   }
 }
-@media screen and (max-width: 625px ) {
-  .logos {
-    margin-top: -3vh;
-    margin-left: 5vh;
-    width : 25vh;
-  }
-}
 @media screen and ( max-width: 650px ){
   .rowtitle{
     font-size: 4.5vw;
@@ -492,11 +484,7 @@ img.logo {
     margin-top: -1vh;
   }
 }
-@media screen and (max-width: 414px) {
-  .forumprofilepc{
-    margin-left: 25;
-  }
-}
+
 
 
 
@@ -569,7 +557,16 @@ img.logo {
     margin-left: 30vh;
   }
 }
-
+@media screen and (max-width: 414px) {
+  .forumprofilepc{
+    margin-left: 25vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  .forumprofilepc{
+    margin-left: 32.5vh;
+  }
+}
 
 
 @media screen and (max-width: 414px) {
@@ -578,32 +575,20 @@ img.logo {
     font-size: 2.4vw;
   }
 }
+@media screen and (max-width: 412px) {
+  .forumprofilename{
+    margin-left: 27vh;
+  }
+}
 
 
 
 @media screen and (max-width: 375px) {
   .forumprofilename {
-    margin-left: 35vh;
+    margin-left: 34vh;
     font-size: 2.4vw;
   }
 }
-@media screen and (max-width: 375px) {
-  .forumprofilepc {
-    margin-left: 33.5vh;
-  }
-}
-
-
-
-
-@media screen and (max-width: 820px) {
-  article{
-    height: 44vh;
-  }
-}
-
-
-
 
 @media screen and ( max-width: 412px ){
   .rowtitle{
@@ -618,26 +603,19 @@ img.logo {
     margin-top: -1vh;
   }
 }
-@media screen and (max-width: 412px) {
-  .forumprofilepc{
-    margin-left: 25vh;
-    size: 65%;
+
+
+
+
+
+
+@media screen and (max-width: 625px ) {
+  .logos {
+    margin-top: -3vh;
+    margin-left: 8vh;
+    width : 25vh;
   }
 }
-@media screen and (max-width: 412px) {
-  .forumprofilename{
-    margin-left: 27vh;
-  }
-}
-@media screen and (max-width: 412px) {
-  article{
-    height: 10vh;
-  }
-}
-
-
-
-
 
 @media screen and (max-width: 414px) {
   .logos{
@@ -650,11 +628,14 @@ img.logo {
   }
 }
 
-@media screen and (max-width: 414px) {
-  .patrat{
-    width: 2vh;  
+@media screen and (max-width: 320px ){
+  .logos {
+    margin-top: -2.5vh;
+    margin-left: -3vh;
   }
 }
+
+
 
 @media screen and (max-width: 650px) {
   .close{
@@ -797,19 +778,12 @@ img.logo {
 
 
 
+
 @media screen and (max-width: 320px ){
   .patrat {
     width: 33.5vh;
     margin-left: -17vh;
     margin-top: 10vh;
-  }
-}
-
-
-@media screen and (max-width: 320px ){
-  .logos {
-    margin-top: -2.5vh;
-    margin-left: -3vh;
   }
 }
 
@@ -822,9 +796,28 @@ img.logo {
   }
 }
 
+
+
+
+@media screen and (max-width: 820px) {
+  article{
+    height: 44vh;
+  }
+}
+
 @media screen and (max-width: 600px ){
   article {
     height: 40vh;
+  }
+}
+@media screen and (max-width: 412px) {
+  article{
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  article{
+    height: 35vh;
   }
 }
 
