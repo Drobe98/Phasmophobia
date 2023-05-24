@@ -35,10 +35,14 @@ input[type=text]:focus, input[type=password]:focus, input [type = text]:focus{
   color: white;
   cursor: pointer;
 }
-
 .email{
   position: flex;
 }
+
+.container{
+  margin-left: 0vh;
+}
+
 .container-signin{
   margin-left: 10vh;
   margin-top: 9.3vh;
@@ -52,6 +56,7 @@ hr {
 }
 /* Set a style for the submit/register button */
 .registerbtn {
+  position: fixed;
   background-color: black;
   color: white;
   padding: 16px 20px;
@@ -126,6 +131,7 @@ form{
   font-size: 2.5vh;
   margin-left: 1vh;
 }
+
 
 .modal {
   display: none; /* Hidden by default */
@@ -295,7 +301,7 @@ article{
   border: white;
   border-style: solid;
   border-radius: 25px;
-  height: 50vh;
+  height: 64vh;
 }  
 .title{
   margin-left: 37%;
@@ -397,6 +403,7 @@ article{
   /* Visar dropdown menyn */
 .show {display:block;}
   
+
 
 
 
@@ -562,9 +569,14 @@ img.logo {
     margin-left: 25vh;
   }
 }
+@media screen and (max-width: 410px) {
+  .forumprofilepc{
+    margin-left: 30vh;
+  }
+}
 @media screen and (max-width: 375px) {
   .forumprofilepc{
-    margin-left: 32.5vh;
+    margin-left: 28.5vh;
   }
 }
 
@@ -580,12 +592,17 @@ img.logo {
     margin-left: 27vh;
   }
 }
+@media screen and (max-width: 410px) {
+  .forumprofilename{
+    margin-left: 32vh;
+  }
+}
 
 
 
 @media screen and (max-width: 375px) {
   .forumprofilename {
-    margin-left: 34vh;
+    margin-left: 29vh;
     font-size: 2.4vw;
   }
 }
@@ -619,7 +636,7 @@ img.logo {
 
 @media screen and (max-width: 414px) {
   .logos{
-    margin-left: 1vh;
+    margin-left: 3vh;
   }
 }
 @media screen and (max-width: 375px) {
@@ -627,6 +644,12 @@ img.logo {
     margin-left: 4vh;
   }
 }
+@media screen and (max-width: 370px) {
+  .logos{
+    margin-left: 1vh;
+  }
+}
+
 
 @media screen and (max-width: 320px ){
   .logos {
@@ -810,9 +833,14 @@ img.logo {
     height: 40vh;
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 413px) {
   article{
-    height: 10vh;
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 410px) {
+  article{
+    height: 30vh;
   }
 }
 @media screen and (max-width: 375px) {
