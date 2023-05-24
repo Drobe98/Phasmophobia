@@ -208,6 +208,7 @@ article{
   /* Visar dropdown menyn */
 .show {display:block;}
   
+
 @media screen and (min-width: 4.1vh) {
 .column {
     max-width: 68.5711428571rem;
@@ -215,6 +216,8 @@ article{
     overflow: hidden;
   }
 }
+
+
 @font-face {
   font-family: October Crow;
   src: url(October-Crow.ttf);
@@ -241,12 +244,24 @@ img.logo {
     }
   }
 
-    
+  @media screen and (max-width: 450px){
+    article {
+        height: 30vh;
+      }
+    }
+  
 @media screen and (max-width: 400px){
   article {
       height: 40vh;
     }
   }
+  @media screen and (max-width: 375px){
+    article {
+        height: 40vh;
+      }
+    }
+  
+
 
 @media screen and (max-width: 992px) {
   .title {
@@ -276,10 +291,44 @@ img.logo {
 @media screen and (max-width: 625px ) {
   .logos {
     margin-top: -3vh;
-    margin-left: 5vh;
+    margin-left: 12vh;
     width : 25vh;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .logos{
+    margin-left: 4vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .logos{
+    margin-left: 1vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logos{
+    margin-left: -2vh;
+
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .logos{
+    margin-left: 4vh;
+  }
+}
+
+@media screen and (max-width: 320px ){
+  .logos {
+    margin-top: -2.5vh;
+    margin-left: -3vh;
+  }
+}
+
+
+
 
 @media screen and (max-width: 824px ){
   .dropdown-content a {
@@ -293,6 +342,15 @@ img.logo {
     margin-left: -15vh;
   }
 }
+
+@media screen and (max-width: 400px ){
+  .patrat {
+    width: 35vh;
+    margin-left: -18vh;
+  }
+}
+
+
 
 @media screen and (max-width: 824px ){
   .contact {
