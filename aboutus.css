@@ -240,7 +240,7 @@ img.logo {
   
 @media screen and (max-width: 600px){
   article {
-      height: 20vh;
+      height: 25vh;
     }
   }
 
@@ -250,6 +250,7 @@ img.logo {
       }
     }
   
+    
 @media screen and (max-width: 400px){
   article {
       height: 40vh;
@@ -298,25 +299,25 @@ img.logo {
 
 @media screen and (max-width: 500px) {
   .logos{
-    margin-left: 4vh;
+    margin-left: 10vh;
   }
 }
 @media screen and (max-width: 425px) {
   .logos{
-    margin-left: 1vh;
+    margin-left: 3vh;
   }
 }
 
 @media screen and (max-width: 400px) {
   .logos{
-    margin-left: -2vh;
+    margin-left: 3vh;
 
   }
 }
 
 @media screen and (max-width: 375px) {
   .logos{
-    margin-left: 4vh;
+    margin-left: -1vh;
   }
 }
 
@@ -340,6 +341,13 @@ img.logo {
   .patrat {
     width: 40vh;
     margin-left: -15vh;
+  }
+}
+@media screen and (max-width: 440px ){
+  .patrat {
+    margin-top: 2vh;
+    width: 35vh;
+    margin-left: -17vh;
   }
 }
 
