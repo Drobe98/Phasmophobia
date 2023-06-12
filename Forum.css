@@ -87,7 +87,7 @@ a {
   border: 0;
 } 
 .forumspace{
-  margin-top: -2.8vh;
+   margin-top: 0vh;
   padding: 0.1vh 0vh 0vh 0vh;
   background-color: #a6a6a6;
   width: 63.5vh;
@@ -183,15 +183,15 @@ form{
   height: 6vh;
 }
 .forumprofilename{
-  margin-top: -2vh;
-  margin-left: 55vh;
+  margin-top: -6vh;
+  margin-left: 36vh;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.8vh;
 }
 .forumprofilepc{
   position: absolute;
-  margin-left: 58vh;
-  margin-top: -2vh;
+  margin-left: 38vh;
+  margin-top: -5vh;
   width: 3.5vh;
   height: 3.5vh;
 }
@@ -211,7 +211,7 @@ form{
   cursor: pointer;
 }
 .rowtitle{
-  margin-top: -2.2vh;
+  margin-top: -5vh;
   margin-left: 5.7vh;
   font-size: 3vh;
   color: #f2f2f2;
